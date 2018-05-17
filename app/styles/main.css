@@ -1,0 +1,90 @@
+.main-container {
+  min-width: 1600px;
+}
+/* Header */
+.header {
+  position: relative;
+
+  height: 200px;
+
+  background: #000;
+}
+.nav-wrapper {
+  width: 1240px;
+  margin: 0 auto;
+
+  background: #000;
+}
+.navBtn {
+  height: 100%;
+
+  color: #fff;
+}
+.navBtn:hover {
+  cursor: pointer;
+  text-decoration: none;
+
+  color: #fff;
+}
+.navBtn:hover .navBtn-icon {
+  animation: jump .8s ease-out infinite;
+}
+.navBtn-icon img {
+  width: 41px;
+}
+.logo {
+  width: 292px;
+
+  cursor: pointer;
+}
+
+/* banner */
+.swiper-container {
+  width: 100%;
+  height: 680px;
+}
+.banner{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #000 center/contain no-repeat;
+}
+.swiper-pagination-bullet {
+  border: 1px solid #fff;
+}
+.swiper-pagination-bullet-active {
+  width: 10px;
+  height: 10px;
+
+  background: #ffcd29;
+}
+
+/* content */
+.title-block {
+  position: relative;
+  font-size: 20px;
+
+  padding: 43px;
+
+  text-align: center;
+  color: #fff;
+
+  background: #000;
+}
+.title-block .title {
+  margin-bottom: 22px;
+}
+.title-block .divider {
+  display: inline-block;
+  background: #ffcd29;
+
+  width: 900px;
+  height: 10px;
+  margin-bottom: 18px;
+}
+.title-icon{
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  margin-top: -23.3px;
+}

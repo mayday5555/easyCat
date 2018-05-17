@@ -1,0 +1,214 @@
+/* ======================= flex ======================= 弹性盒模型 */
+.cell-primary{
+  display: -webkit-flex;
+  display:    -moz-flex;
+  display:     -ms-flex;
+  display:      -o-flex;
+  display:         flex;
+}
+.cell-primary-column{
+  flex-direction: column;
+}
+.cell-primary-1{
+  flex: 1;
+}
+.cell-primary-2{
+  flex: 2;
+}
+.cell-primary-3{
+  flex: 3;
+}
+.cell-primary-4{
+  flex: 4;
+}
+.cell-primary-5{
+  flex: 5;
+}
+.cell-primary-6{
+  flex: 6;
+}
+.cell-primary-7{
+  flex: 7;
+}
+.cell-primary-8{
+  flex: 8;
+}
+.cell-primary-9{
+  flex: 9;
+}
+.cell-primary-10{
+  flex: 10;
+}
+.cell-primary-11{
+  flex: 11;
+}
+.cell-primary-12{
+  flex: 12;
+}
+.center-self{
+  align-self: center;
+}
+.center-items{
+  align-items: center;
+}
+.stretch-self{
+  align-self: stretch;
+}
+.stretch-items{
+  align-items: stretch;
+}
+.center-justify{
+  justify-content: center;
+}
+.between-justify{
+  justify-content: space-between;
+}
+.around-justify{
+  justify-content: space-around;
+}
+/* ======================= box model ======================= 盒子模型 */
+.full-box{
+  width: 100%;
+  height: 100%;
+}
+.full-height{
+  height: 100%;
+}
+.vertical-padding{
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.horizon-padding{
+  padding: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.top-padding{
+  padding: 0;
+  padding-top: 10px;
+}
+.bottom-padding{
+  padding: 0;
+  padding-bottom: 10px;
+}
+.left-padding{
+  padding: 0;
+  padding-left: 10px;
+}
+.right-padding{
+  padding: 0;
+  padding-right: 10px;
+}
+.notop-padding{
+  padding-top: 0!important;
+}
+.nobottom-padding{
+  padding-bottom: 0!important;
+}
+.noleft-padding{
+  padding-left: 0!important;
+}
+.noright-padding{
+  padding-right: 0!important;
+}
+.all-padding{
+  padding: 10px;
+}
+.no-padding{
+  padding: 0;
+}
+.vertical-margin{
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.horizon-margin{
+  margin: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.top-margin{
+  margin: 0;
+  margin-top: 10px;
+}
+.bottom-margin{
+  margin: 0;
+  margin-bottom: 10px;
+}
+.left-margin{
+  margin: 0;
+  margin-left: 10px;
+}
+.right-margin{
+  margin: 0;
+  margin-right: 10px;
+}
+.notop-margin{
+  margin-top: 0!important;
+}
+.nobottom-margin{
+  margin-bottom: 0!important;
+}
+.noleft-margin{
+  margin-left: 0!important;
+}
+.noright-margin{
+  margin-right: 0!important;
+}
+.all-margin{
+  margin: 10px;
+}
+.no-margin{
+  margin: 0;
+}
+.vertical-border{
+  border: 0;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.horizon-border{
+  border: 0;
+  border-right: 1px solid #f0f0f0;
+  border-left: 1px solid #f0f0f0;
+}
+.top-border{
+  border: 0;
+  border-top: 1px solid #f0f0f0;
+}
+.bottom-border{
+  border: 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.left-border{
+  border: 0;
+  border-left: 1px solid #f0f0f0;
+}
+.right-border{
+  border: 0;
+  border-right: 1px solid #f0f0f0;
+}
+.notop-border{
+  border-top: 0!important;
+}
+.nobottom-border{
+  border-bottom: 0!important;
+}
+.noleft-border{
+  border-left: 0!important;
+}
+.noright-border{
+  border-right: 0!important;
+}
+.all-border{
+  border: 1px solid #f0f0f0;
+}
+.no-border{
+  border: 0;
+}
+.pull-right{
+  float: right;
+}
+.pull-left{
+  float: left;
+}
