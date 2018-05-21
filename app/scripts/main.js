@@ -1,7 +1,7 @@
 $(function() {
   'use strict';
 
-  var banners = new Swiper('.swiper-container', {
+  new Swiper('.swiper-container', {
     loop: true,
     autoplay: true,
     initialSlide: $('.swiper-slide.first').index() || 0,

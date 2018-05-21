@@ -48,7 +48,6 @@
   color: #fff;
   background: #000;
 }
-
 .qrcode {
   margin-right: 45px;
 }
@@ -155,13 +154,13 @@
   text-indent: 2em;
 }
 .content-block {
+  font-size: 18px;
   line-height: 1.6;
 
   display: inline-block;
 
   width: 900px;
   padding: 40px 80px;
-  font-size: 18px;
 
   text-align: justify;
 
@@ -191,4 +190,30 @@
   font-size: 0.5em;
 
   margin-left: 5px;
+}
+
+.advantages-wrapper {
+  padding: 72px 113px 36px;
+}
+
+.advantage {
+  margin-right: 45px;
+
+  flex: 1;
+}
+
+.advantage:last-child {
+  margin-right: 0;
+}
+
+.advantage-title p {
+  font-size: 38px;
+
+  margin: 40px 0 30px;
+}
+
+.advantage-content {
+  font-size: 16px;
+
+  text-align: justify;
 }

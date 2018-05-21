@@ -2,18 +2,8 @@
   "name": "easycat",
   "private": true,
   "dependencies": {
-    "bootstrap": "~3.3.5",
     "swiper": "^4.2.6",
-    "handlebars": "^4.0.11"
-  },
-  "overrides": {
-    "bootstrap": {
-      "main": [
-        "less/bootstrap.less",
-        "dist/css/bootstrap.css",
-        "dist/js/bootstrap.js",
-        "dist/fonts/*"
-      ]
-    }
+    "handlebars": "^4.0.11",
+    "jquery": "^3.3.1"
   }
 }
