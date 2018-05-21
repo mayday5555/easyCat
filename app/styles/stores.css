@@ -1,0 +1,46 @@
+.content-wrapper {
+  padding: 48px 111px 123px;
+
+  background-color: #ffcd29;
+}
+.stores-wrapper:after {
+  display: block;
+  clear: both;
+
+  content: "";
+}
+.store {
+  float: left;
+
+  width: calc(100% / 4 - 26px);
+  margin-right: 34.6666666667px;
+  margin-bottom: 26px;
+  padding-right: 15px;
+
+  color: #ffcd29;
+  border-radius: 20px;
+  background: #000;
+}
+.store:nth-child(4n) {
+  margin-right: 0;
+}
+.store-icon-wrapper {
+  padding: 15px 24px 14px 15px;
+}
+.store-icon {
+  width: 130px;
+  height: 130px;
+
+  border: 4px solid #ffcd29;
+  border-radius: 50%;
+  background: #000 center/cover no-repeat;
+}
+.store-title {
+  font-size: 24px;
+
+  border-bottom: 1px dotted #ffcd29;
+}
+.store-address {
+  font-size: 14px;
+  line-height: 1.8em;
+}
