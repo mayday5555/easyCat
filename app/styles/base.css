@@ -11,15 +11,18 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
   font-size: 16px;
 
+  letter-spacing: .1em;
+
   color: #000;
   background: #000;
 }
 ol, ul {
   list-style: none;
 }
-a{
-  color: #000;
+a {
   text-decoration: none;
+
+  color: #000;
 }
 .center-text {
   text-align: center;
@@ -49,15 +52,23 @@ a{
 .activeColor {
   color: #ffcd29;
 }
-.huge{
+.huge {
   font-size: 36px;
 }
-.large{
+.large {
   font-size: 24px;
 }
-.small{
+.small {
   font-size: 16px;
 }
-.tiny{
+.tiny {
   font-size: 14px;
+}
+@media(max-width: 768px) {
+  .huge {
+  font-size: 24px;
+}
+.large {
+  font-size: 20px;
+}
 }

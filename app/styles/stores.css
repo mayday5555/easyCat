@@ -1,5 +1,5 @@
 .content-wrapper {
-  padding: 48px 111px 123px;
+  padding: 40px 3%;
 
   background-color: #ffcd29;
 }
@@ -43,4 +43,34 @@
 .store-address {
   font-size: 14px;
   line-height: 1.8em;
+}
+@media(max-width: 1400px) {
+  .store {
+    width: calc(100% / 3 - 20px);
+    margin-right: 30px;
+  }
+  .store:nth-child(4n) {
+    margin-right: 30px;
+  }
+  .store:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+@media(max-width: 1200px) {
+  .store {
+    width: calc(100% / 2 - 10px);
+    margin-right: 20px;
+  }
+  .store:nth-child(3n) {
+    margin-right: 20px;
+  }
+  .store:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+@media(max-width: 768px) {
+  .store{
+    width: 100%;
+    margin-right: 0;
+  }
 }
