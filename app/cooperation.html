@@ -32,6 +32,9 @@
       padding-top: 7%;
       text-align: center;
     }
+    .cooperation-title img{
+      min-width: 180px;
+    }
 
     .contactus {
       padding: 6% 3%;
@@ -41,6 +44,12 @@
     @media(max-width: 768px) {
       .contactus-wrapper{
         flex-direction: column;
+      }
+      .cooperation-title img{
+        width: 40%;
+      }
+      .contactus-wrapper .qrcode-container{
+        display: none;
       }
     }
   </style>
@@ -139,7 +148,7 @@
 
     <div class="content-wrapper">
       <div class="cooperation-title">
-        <img src="images/icons/superiority.png" style="width:80%;max-width: 400px;">
+        <img src="images/icons/superiority.png">
       </div>
       <div class="advantages-wrapper cell-primary">
         <div class="advantage">

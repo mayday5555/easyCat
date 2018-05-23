@@ -27,9 +27,13 @@
     .content-wrapper {
       position: relative;
 
-      padding: 75px 5%;
+      padding: 3% 5%;
 
       background: #ffcd29;
+    }
+
+    .article-title {
+      margin-bottom: 3%;
     }
     .prospects-wrapper {
       height: 800px;
@@ -89,34 +93,59 @@
       color: #fff;
     }
     @media(max-width: 1000px) {
+      .content-wrapper {
+        padding: 7% 5%;
+      }
+      .article-title {
+        margin-bottom: 7%;
+      }
       .prospects-wrapper {
-        height: fit-content;
         display: flex;
         flex-direction: column;
+
+        height: fit-content;
         padding: 40px 5%;
       }
       .prospects, .prospects-image {
         position: relative;
-        left:unset;
         top:unset;
         right:unset;
         bottom:unset;
+        left:unset;
       }
-      .prospects{
+      .prospects {
         width: 100%;
       }
-      .prospects-4{
-        padding-left: 10%;
+      .prospects-4 {
         margin-bottom: 20px;
+        padding-left: 10%;
       }
-      .prospects-image-1{
+      .prospects-image-1 {
         order: -1;
         align-self: flex-end;
       }
-      .prospects-2 img{
-        order: 1;
+      .prospects-2 img {
         margin-right: 0;
         margin-left: 5%;
+
+        order: 1;
+      }
+    }
+    @media(max-width: 768px) {
+      .content-wrapper {
+        padding: 5%;
+      }
+      .article-title {
+        margin-bottom: 5%;
+      }
+      .article-title img {
+        width: 40%;
+      }
+      .prospects img {
+        width: 30%;
+      }
+      .prospects-image-1, .prospects-image-2 {
+        width: 50%;
       }
     }
   </style>
@@ -213,8 +242,8 @@
     </div>
 
     <div class="content-wrapper">
-      <div class="center-text" style="margin-bottom: 45px;">
-        <img src="images/icons/unbg-logo.png" style="width:100%;max-width: 250px;">
+      <div class="article-title center-text">
+        <img src="images/icons/unbg-logo.png">
       </div>
       <p class="justify-text paragraph">
         北京便丽猫网络科技有限公司（以下简称“便丽猫”）是一家智能零售商业空间运营商，总部位于北京市国贸区CBD。成立至今，便丽猫始终专注于无人零售领域的系统运营和研发，坚持稳健运营、持续创新、开放合作的经营方针，为鲜食类食品及设备运营商提供强有力的运营支持平台，为消费者提供便利、安全、健康的终端鲜食产品和后台服务，致力于为消费者创造更美好的鲜生活。

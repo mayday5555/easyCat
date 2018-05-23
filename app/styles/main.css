@@ -36,7 +36,7 @@
 
   cursor: pointer;
 
-  background: url('/images/icons/logo.png') center/contain no-repeat;
+  background: url('../images/icons/logo.png') center/contain no-repeat;
 }
 .footer {
   position: relative;
@@ -221,7 +221,7 @@
   float: left;
 
   width: 20%;
-  margin: 72px 0;
+  margin: 7% 0;
   padding: 0 20px;
 }
 
@@ -274,7 +274,7 @@
     order: -1;
   }
   .logo {
-    background-image: url('/images/icons/logo-mobild.png');
+    background-image: url('../images/icons/logo-mobild.png');
   }
   .navBtn-text p:first-child {
     margin-bottom: 0;
@@ -308,6 +308,9 @@
   .mark-box {
     font-size: 14px;
   }
+  .paragraph{
+    font-size: 20px;
+  }
 }
 @media(max-width: 500px) {
   .navBtn {
@@ -325,5 +328,8 @@
   }
   .advantage {
     width: 100%;
+  }
+  .paragraph{
+    font-size: 18px;
   }
 }
