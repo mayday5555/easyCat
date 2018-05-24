@@ -94,7 +94,19 @@
 
   margin-top: 25px;
 }
+.call-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
 
+  display: none;
+
+  width: 200px;
+  height: 54px;
+  margin-left: -100px;
+
+  background: url('../images/icons/call.png') center/100% no-repeat;
+}
 /* banner */
 .swiper-container {
   width: 100%;
@@ -159,7 +171,7 @@
 }
 
 .paragraph {
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.6;
 
   margin-bottom: 40px;
@@ -168,7 +180,7 @@
 }
 .content-block {
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.8;
 
   display: inline-block;
 
@@ -233,6 +245,7 @@
 
 .advantage-content {
   font-size: 16px;
+  line-height: 1.6;
 
   text-align: justify;
 }
@@ -308,7 +321,7 @@
   .mark-box {
     font-size: 14px;
   }
-  .paragraph{
+  .paragraph {
     font-size: 20px;
   }
 }
@@ -329,7 +342,10 @@
   .advantage {
     width: 100%;
   }
-  .paragraph{
+  .paragraph {
     font-size: 18px;
+  }
+  .call-btn {
+    display: block;
   }
 }
