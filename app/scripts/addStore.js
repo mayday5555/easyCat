@@ -17,7 +17,7 @@ $(function() {
           image: 'images/stores/honglian.png'
         },
         {
-          name: '亦庄世纪城乡店',
+          name: '亦庄世纪店',
           address: '北京市经海二路与科创五街交汇城乡世纪广场B1层',
           image: 'images/stores/yizhuang.jpg'
         },
@@ -115,8 +115,8 @@ $(function() {
       engName: 'Hangzhou',
       stores: [
         {
-          name: '淘亲橙里店',
-          address: '杭州市常二路和文一西路交叉口淘宝城B1',
+          name: '亲橙里店',
+          address: '杭州市亲橙里商场B1',
           image: 'images/stores/default.jpg'
         }
       ]
@@ -160,7 +160,7 @@ $(function() {
       stores: [
         {
           name: '南国首义店',
-          address: '武汉市东西湖区吴家山中心广场1',
+          address: '武汉市武昌区张之洞路151号',
           image: 'images/stores/shouyi.jpg'
         }
       ]
@@ -189,7 +189,8 @@ $(function() {
     }
   ];
 
-  var storeTpl = Handlebars.compile('{{#each this}} <div class="cities-container"> <div class="city-title"> <img src="images/icons/location.png"  class="location-icon"> <span class="city-text">{{name}}</span> <span class="city-engText">{{engName}}</span> </div> <div class="stores-wrapper"> {{#each stores}} <div class="store cell-primary center-items"> <div class="store-icon-wrapper"> <div class="store-icon" style="background-image: url({{image}})"></div> </div> <div class="cell-primary-1"> <div class="store-title bottom-padding bottom-margin"> {{name}} </div> <div class="store-address"> {{address}} </div> </div> </div> {{/each}} </div> </div> {{/each}}'
+  var storeTpl = Handlebars.compile(
+    '{{#each this}} <div class="cities-container"> <div class="city-title"> <img src="images/icons/location.png"  class="location-icon"> <span class="city-text">{{name}}</span> <span class="city-engText">{{engName}}</span> </div> <div class="stores-wrapper"> {{#each stores}} <div class="store cell-primary center-items"> <div class="store-icon-wrapper"> <div class="store-icon" style="background-image: url({{image}})"></div> </div> <div class="cell-primary-1"> <div class="store-title bottom-padding bottom-margin"> {{name}} </div> <div class="store-address"> {{address}} </div> </div> </div> {{/each}} </div> </div> {{/each}}'
   );
   $('.content-wrapper').html(storeTpl(stores));
 });
