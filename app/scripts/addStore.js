@@ -89,7 +89,17 @@ $(function() {
         },
         {
           name: '搜乐城店',
-          address: '上海市虹口区广粤路299号盒马鲜生门店',
+          address: '上海市虹口区广粤路299号搜乐城',
+          image: 'images/stores/default.jpg'
+        },
+        {
+          name: '同济大学店',
+          address: '上海市嘉定区曹安公路4800号',
+          image: 'images/stores/default.jpg'
+        },
+        {
+          name: '虹桥店',
+          address: '上海市闵行区金汇路538号金汇四季广场B1层',
           image: 'images/stores/default.jpg'
         }
       ]
@@ -117,6 +127,11 @@ $(function() {
         {
           name: '亲橙里店',
           address: '杭州市亲橙里商场B1',
+          image: 'images/stores/default.jpg'
+        },
+        {
+          name: '杭州萧山店',
+          address: '杭州市萧山区金城路927号华润万象汇B1层',
           image: 'images/stores/default.jpg'
         }
       ]
@@ -151,6 +166,11 @@ $(function() {
           name: '茶亭店',
           address: '福建省福州市台江区茶亭街道八一七路茶亭地块八商业综合楼B1',
           image: 'images/stores/default.jpg'
+        },
+        {
+          name: '恒力博纳店',
+          address: '福州市鼓楼区北二环中路18号恒力博纳广场南区B1层',
+          image: 'images/stores/default.jpg'
         }
       ]
     },
@@ -184,6 +204,11 @@ $(function() {
           name: '太白店',
           address: '西安市碑林区南二环路西段155号太白印象城B1',
           image: 'images/stores/taibai.png'
+        },
+        {
+          name: '曲江店',
+          address: '西安市雁塔区雁塔南路410号曲江银泰城二期B1层',
+          image: 'images/stores/default.jpg'
         }
       ]
     }
