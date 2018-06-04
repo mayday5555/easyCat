@@ -30,25 +30,61 @@
 
     .cooperation-title {
       padding-top: 7%;
+
       text-align: center;
     }
-    .cooperation-title img{
+    .cooperation-title img {
       min-width: 180px;
     }
 
     .contactus {
-      padding: 6% 3%;
-      color: #fff;
       line-height: 1.6;
+
+      padding: 6% 3%;
+
+      color: #fff;
+    }
+    .devices-wrapper {
+      padding: 40px 15% 200px;
+
+      color: #fff;
+    }
+    .device {
+      padding: 20px 5%;
+
+      white-space: nowrap;
+    }
+    .pic-top {
+      text-align: right;
+      padding: 50px 15%;
+    }
+    .pic-container {
+      position: relative;
+      margin-left: 10%;
+    }
+    .pic-container img {
+      width: 100%;
     }
     @media(max-width: 768px) {
-      .contactus-wrapper{
+      .pic-top h1{
+        visibility: hidden;
+      }
+      .pic-container{
+        margin-left: 0;
+      }
+      .devices-wrapper{
+        padding-bottom: 40px;
+      }
+      .pic-top{
+        padding: 13px;
+      }
+      .contactus-wrapper {
         flex-direction: column;
       }
-      .cooperation-title img{
+      .cooperation-title img {
         width: 40%;
       }
-      .contactus-wrapper .qrcode-container{
+      .contactus-wrapper .qrcode-container {
         display: none;
       }
     }
@@ -189,9 +225,41 @@
       </div>
     </div>
 
+    <div class="title-block">
+      <p class="title">产品设备</p>
+      <div class="divider"></div>
+      <p>
+        <span class="activeColor">P</span>roduct
+      </p>
+      <div class="title-icon">
+        <img src="images/icons/title-icon.png">
+      </div>
+    </div>
+
+    <div class="devices-wrapper cell-primary cell-primary-wrap">
+      <div class="device">现磨咖啡机</div>
+      <div class="device">现制披萨机</div>
+      <div class="device">现榨橙汁机</div>
+      <div class="device">椰子机</div>
+      <div class="device">现磨粗粮机</div>
+      <div class="device">冰爽啤酒机</div>
+      <div class="device">抓娃娃机</div>
+      <div class="device">智能货柜</div>
+      <div class="device">现炸薯条机</div>
+      <div class="device">现制冰淇淋机</div>
+      <div class="device">更多设备敬请期待...</div>
+    </div>
+
+    <div class="content-wrapper pic-top">
+      <h1>便丽猫1.0版</h1>
+    </div>
+
     <div class="contactus-wrapper cell-primary">
-      <div class="cell-primary-1">
-        <img src="images/icons/pic.jpg" style="width: 100%;">
+      <div class="pic-container">
+        <div style="position: absolute;bottom: 100%;overflow: hidden;width:100%;">
+          <img src="images/icons/pic-top.png" style="display: block;width: 108%;margin-left: -3%;">
+        </div>
+        <img src="images/icons/pic.jpg">
       </div>
       <div class="contactus">
         <p class="huge">联系我们</p>
@@ -226,7 +294,7 @@
           <div class="mark-box center-text">
             <p style="font-size: 24px;margin-bottom: 10px;">北京便丽猫网络科技有限公司</p>
             <p>
-              <img src="images/icons/location-white.png" class="location-icon"> 北京市朝阳区广渠路竞园艺术中心20G
+              <img src="images/icons/location-white.png" class="location-icon"> 北京总部：朝阳区广渠路3号（竞园艺术中心）20G
             </p>
           </div>
           <p class="copyright">
@@ -240,10 +308,10 @@
     </div>
     <div class="footer-mobile">
       <div class="cell-primary cell-primary-column center-justify">
-        <div class="mark-box" style="margin-bottom: 20px;">
+        <div style="margin-bottom: 20px;">
           <p style="font-size: 20px;margin-bottom: 10px;">北京便丽猫网络科技有限公司</p>
           <p>
-            <img src="images/icons/location-white.png" class="location-icon"> 北京市朝阳区广渠路竞园艺术中心20G
+            <img src="images/icons/location-white.png" class="location-icon"> 北京总部：朝阳区广渠路3号（竞园艺术中心）20G
           </p>
         </div>
         <div class="qrcode-container cell-primary center-items">

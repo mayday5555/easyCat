@@ -9,6 +9,9 @@
 .cell-primary-column{
   flex-direction: column;
 }
+.cell-primary-wrap{
+  flex-wrap: wrap;
+}
 .cell-primary-1{
   flex: 1;
 }
