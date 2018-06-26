@@ -1,5 +1,5 @@
-$(function() {
-  'use strict';
+$(function () {
+  'use strict'
 
   var stores = [
     {
@@ -212,10 +212,10 @@ $(function() {
         }
       ]
     }
-  ];
+  ]
 
   var storeTpl = Handlebars.compile(
     '{{#each this}} <div class="cities-container"> <div class="city-title"> <img src="images/icons/location.png"  class="location-icon"> <span class="city-text">{{name}}</span> <span class="city-engText">{{engName}}</span> </div> <div class="stores-wrapper"> {{#each stores}} <div class="store cell-primary center-items"> <div class="store-icon-wrapper"> <div class="store-icon" style="background-image: url({{image}})"></div> </div> <div class="cell-primary-1"> <div class="store-title bottom-padding bottom-margin"> {{name}} </div> <div class="store-address"> {{address}} </div> </div> </div> {{/each}} </div> </div> {{/each}}'
-  );
-  $('.content-wrapper').html(storeTpl(stores));
-});
+  )
+  $('.content-wrapper').html(storeTpl(stores))
+})
