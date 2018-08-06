@@ -127,7 +127,12 @@ $(function() {
           name: '红点城店',
           address: '上海闵行区七莘路1809号地下一层',
           image: 'images/stores/default.jpg'
-        }
+        },
+        {
+          name: '三林店',
+          address: '上海市浦东新区东明路2719号盒马鲜生门店',
+          image: 'images/stores/default.jpg'
+        },
       ]
     },
     {
@@ -158,6 +163,11 @@ $(function() {
           name: '莱蒙店',
           address: '成都市二环路南四段51号莱蒙都会B1层',
           image: 'images/stores/laimeng.jpg'
+        },
+        {
+          name: '未来中心店',
+          address: '成都市成华区东风路26号未来中心B1层盒马鲜生门店',
+          image: 'images/stores/default.jpg'
         }
       ]
     },
@@ -185,6 +195,16 @@ $(function() {
           name: '曜一城店',
           address: '广州市天河区天河北路719号2楼自编1单元',
           image: 'images/stores/default.jpg'
+        },
+        {
+          name: '广州家信商业中心店',
+          address: '广州市海珠区工业大道北路88号首层自编之一A16铺盒马鲜生店',
+          image: 'images/stores/default.jpg'
+        },
+        {
+          name: '广州保利中环店',
+          address: '广州市越秀区建设大马路20号B103房盒马鲜生门店',
+          image: 'images/stores/default.jpg'
         }
       ]
     },
@@ -196,7 +216,12 @@ $(function() {
           name: '皇庭广场店',
           address: '深圳市福田区福华三路皇庭广场B1层',
           image: 'images/stores/huangting.jpg'
-        }
+        },
+        {
+          name: '水湾门店',
+          address: '深圳市蛇口荔园路东水湾壹玖柒玖广场(一期)负101',
+          image: 'images/stores/default.jpg'
+        },
       ]
     },
     {
@@ -223,7 +248,12 @@ $(function() {
           name: '南国首义店',
           address: '武汉市武昌区张之洞路151号',
           image: 'images/stores/shouyi.jpg'
-        }
+        },
+        {
+          name: '万家汇店',
+          address: '武汉市江岸区百步亭花园路205号万家汇购物中心2层盒马鲜生门店',
+          image: 'images/stores/default.jpg'
+        },
       ]
     },
     {
@@ -234,11 +264,12 @@ $(function() {
           name: '夫子庙店',
           address: '江苏省南京市秦淮区来燕路1号盒马鲜生',
           image: 'images/stores/default.jpg'
-        }, {
+        },
+        {
           name: '湖南路店',
           address: '南京市鼓楼区马台街９９号B1楼盒马鲜生门店',
           image: 'images/stores/default.jpg'
-        }
+        },
       ]
     },
     {
@@ -254,7 +285,23 @@ $(function() {
           name: '曲江店',
           address: '西安市雁塔区雁塔南路410号曲江银泰城二期B1层',
           image: 'images/stores/default.jpg'
-        }
+        },
+        {
+          name: '高新大都荟店',
+          address: '西安市雁塔区科技路305号高新大都荟1层盒马鲜生门店',
+          image: 'images/stores/default.jpg'
+        },
+      ]
+    },
+    {
+      name: '南通',
+      engName: 'Nantong',
+      stores: [
+        {
+          name: '盒小马南通骑岸店',
+          address: '江苏省南通市通州区骑岸镇星润大卖场',
+          image: 'images/stores/default.jpg'
+        },
       ]
     }
   ];
