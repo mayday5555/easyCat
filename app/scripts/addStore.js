@@ -1,5 +1,5 @@
-$(function () {
-  'use strict'
+$(function() {
+  'use strict';
 
   var stores = [
     {
@@ -35,6 +35,11 @@ $(function () {
           name: '大成店',
           address: '北京市丰台区8号翠微百货B1层',
           image: 'images/stores/dacheng.png'
+        },
+        {
+          name: '百荣店',
+          address: '北京市东城区永定门外大街甲101号地上1，2层',
+          image: 'images/stores/default.jpg'
         }
       ]
     },
@@ -101,6 +106,27 @@ $(function () {
           name: '虹桥店',
           address: '上海市闵行区金汇路538号金汇四季广场B1层',
           image: 'images/stores/default.jpg'
+        },
+        {
+          name: '新荟城店',
+          address: '上海市莲花南路1388弄7号盒马鲜生门店',
+          image: 'images/stores/default.jpg'
+        },
+        {
+          name: '星空店',
+          address: '上海市长宁区虹桥路1665号星空广场B1楼盒马鲜生门店',
+          image: 'images/stores/default.jpg'
+        },
+        {
+          name: '天猫同济店',
+          address:
+            '上海市嘉定区曹安公路4800号同济大学嘉定校区嘉定同济新天地S101',
+          image: 'images/stores/default.jpg'
+        },
+        {
+          name: '红点城店',
+          address: '上海闵行区七莘路1809号地下一层',
+          image: 'images/stores/default.jpg'
         }
       ]
     },
@@ -111,6 +137,21 @@ $(function () {
         {
           name: '德坤店',
           address: '成都市温江区光华大道三段1860号德坤新天地1F',
+          image: 'images/stores/default.jpg'
+        },
+        {
+          name: '建设路店',
+          address: '成都市成华区建设路10号钻石广场B1层盒马鲜生店（钻石广场店）',
+          image: 'images/stores/default.jpg'
+        },
+        {
+          name: '西村店',
+          address: '成都市青羊区贝森北路1号西村大院B1层盒马鲜生店',
+          image: 'images/stores/default.jpg'
+        },
+        {
+          name: '九眼桥店',
+          address: '成都市锦江区一环东路五段55号阳光新业中心B1层盒马鲜生门店',
           image: 'images/stores/default.jpg'
         },
         {
@@ -193,6 +234,10 @@ $(function () {
           name: '夫子庙店',
           address: '江苏省南京市秦淮区来燕路1号盒马鲜生',
           image: 'images/stores/default.jpg'
+        }, {
+          name: '湖南路店',
+          address: '南京市鼓楼区马台街９９号B1楼盒马鲜生门店',
+          image: 'images/stores/default.jpg'
         }
       ]
     },
@@ -212,10 +257,10 @@ $(function () {
         }
       ]
     }
-  ]
+  ];
 
   var storeTpl = Handlebars.compile(
     '{{#each this}} <div class="cities-container"> <div class="city-title"> <img src="images/icons/location.png"  class="location-icon"> <span class="city-text">{{name}}</span> <span class="city-engText">{{engName}}</span> </div> <div class="stores-wrapper"> {{#each stores}} <div class="store cell-primary center-items"> <div class="store-icon-wrapper"> <div class="store-icon" style="background-image: url({{image}})"></div> </div> <div class="cell-primary-1"> <div class="store-title bottom-padding bottom-margin"> {{name}} </div> <div class="store-address"> {{address}} </div> </div> </div> {{/each}} </div> </div> {{/each}}'
-  )
-  $('.content-wrapper').html(storeTpl(stores))
-})
+  );
+  $('.content-wrapper').html(storeTpl(stores));
+});
