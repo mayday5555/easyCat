@@ -40,7 +40,12 @@ $(function() {
           name: '百荣店',
           address: '北京市东城区永定门外大街甲101号地上1，2层',
           image: 'images/stores/default.jpg'
-        }
+        },
+        {
+          name: '天猫北京二炮军营店',
+          address: '北京市朝阳区北苑二炮军营一层',
+          image: 'images/stores/default.jpg'
+        },
       ]
     },
     {
@@ -133,6 +138,16 @@ $(function() {
           address: '上海市浦东新区东明路2719号盒马鲜生门店',
           image: 'images/stores/default.jpg'
         },
+        {
+          name: '盒小马上海松江新桥店',
+          address: '上海市松江新桥明中路1885号(明中广场)',
+          image: 'images/stores/default.jpg'
+        },
+        {
+          name: '绿地上海缤纷汇店',
+          address: '上海市徐汇区东安路562号绿地缤纷城购物广场B1',
+          image: 'images/stores/default.jpg'
+        },
       ]
     },
     {
@@ -184,7 +199,27 @@ $(function() {
           name: '杭州萧山店',
           address: '杭州市萧山区金城路927号华润万象汇B1层',
           image: 'images/stores/default.jpg'
-        }
+        },
+        {
+          name: '天猫零售通杭州滨江聚光中心店',
+          address: '杭州滨江区阡陌路459号聚光中心',
+          image: 'images/stores/default.jpg'
+        },
+        {
+          name: '天猫零售通杭州滨江天猫小店',
+          address: '杭州滨江区滨兴路59号与西兴路交汇处天猫小店',
+          image: 'images/stores/default.jpg'
+        },
+        {
+          name: '天猫零售通杭州梦想小镇店',
+          address: '杭州余杭区仓前街道仓兴街88号灵源村委办公楼',
+          image: 'images/stores/default.jpg'
+        },
+        {
+          name: '崇邦杭州余之城店',
+          address: '杭州市余杭区迎宾路501号',
+          image: 'images/stores/default.jpg'
+        },
       ]
     },
     {
@@ -205,7 +240,12 @@ $(function() {
           name: '广州保利中环店',
           address: '广州市越秀区建设大马路20号B103房盒马鲜生门店',
           image: 'images/stores/default.jpg'
-        }
+        },
+        {
+          name: '天猫广州华南农业大学店',
+          address: '广州市天河区华南农业大学绿榕园1楼',
+          image: 'images/stores/default.jpg'
+        },
       ]
     },
     {
@@ -254,6 +294,11 @@ $(function() {
           address: '武汉市江岸区百步亭花园路205号万家汇购物中心2层盒马鲜生门店',
           image: 'images/stores/default.jpg'
         },
+        {
+          name: '盒马武汉太和里店',
+          address: '武汉市江汉区青年路59号环球贸易中心B1层',
+          image: 'images/stores/default.jpg'
+        },
       ]
     },
     {
@@ -291,6 +336,11 @@ $(function() {
           address: '西安市雁塔区科技路305号高新大都荟1层盒马鲜生门店',
           image: 'images/stores/default.jpg'
         },
+        {
+          name: '西安梦想公社店',
+          address: '新筑街道国际港务区港务大道89号（梦想公社）',
+          image: 'images/stores/default.jpg'
+        },
       ]
     },
     {
@@ -300,6 +350,17 @@ $(function() {
         {
           name: '盒小马南通骑岸店',
           address: '江苏省南通市通州区骑岸镇星润大卖场',
+          image: 'images/stores/default.jpg'
+        },
+      ]
+    },
+    {
+      name: '苏州',
+      engName: 'Suzhou',
+      stores: [
+        {
+          name: '盒小马苏州文体店',
+          address: '江苏省苏州市高新区太湖大道文体中心盒小马店',
           image: 'images/stores/default.jpg'
         },
       ]
