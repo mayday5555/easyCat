@@ -33,6 +33,7 @@
 
       text-align: center;
     }
+
     .cooperation-title img {
       min-width: 180px;
     }
@@ -44,46 +45,116 @@
 
       color: #fff;
     }
+
     .devices-wrapper {
-      padding: 40px 15% 200px;
+      padding: 40px 10% 40px;
+      display: flex;
 
       color: #fff;
     }
-    .device {
-      padding: 20px 5%;
 
+    .devices-title {
+      background: #ffcd29;
+      display: inline-block;
+      border-radius: 5px;
+      padding: 10px 15px;
+    }
+
+    .device {
+      width: 130px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 3px 8px;
+      margin: 6px 8px;
+      border: 1px dashed #ffcd29;
+      color: #ffcd29;
+      border-radius: 5px;
       white-space: nowrap;
     }
+
+    .device img {
+      height: 30px;
+    }
+
     .pic-top {
       text-align: right;
       padding: 50px 15%;
     }
+
     .pic-container {
       position: relative;
       margin-left: 10%;
     }
+
     .pic-container img {
       width: 100%;
     }
+
+
+    .channel-wrapper {
+      border-radius: 10px;
+      overflow: hidden;
+      display: flex;
+      margin: 20px;
+    }
+
+    .channel-title {
+      background: #000;
+      color: #ffcd29;
+      writing-mode: vertical-lr;
+      text-align: center;
+      padding: 0 5px;
+    }
+
+    .channel-content {
+      width: 400px;
+      height: 165px;
+      background: #000 0 0/100% 100% no-repeat;
+    }
+    .scene-wrapper{
+      padding: 0 10%;
+    }
+
+    @media(min-width: 1295px) {
+      .devices-container:not(:first-child) {
+        margin-left: 100px;
+      }
+    }
+    @media(max-width: 1194px){
+      .scene-wrapper{
+        padding: 0;
+      }
+    }
+
     @media(max-width: 768px) {
-      .pic-top h1{
+      .pic-top h1 {
         visibility: hidden;
       }
-      .pic-container{
+
+      .pic-container {
         margin-left: 0;
       }
-      .devices-wrapper{
+
+      .devices-wrapper {
         padding-bottom: 40px;
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
       }
-      .pic-top{
+
+      .pic-top {
         padding: 13px;
       }
+
       .contactus-wrapper {
         flex-direction: column;
       }
+
       .cooperation-title img {
         width: 40%;
       }
+
       .contactus-wrapper .qrcode-container {
         display: none;
       }
@@ -236,25 +307,50 @@
       </div>
     </div>
 
-    <div class="devices-wrapper cell-primary cell-primary-wrap">
-      <div class="device">现磨咖啡机</div>
-      <div class="device">现制披萨机</div>
-      <div class="device">现榨橙汁机</div>
-      <div class="device">椰子机</div>
-      <div class="device">现磨粗粮机</div>
-      <div class="device">冰爽啤酒机</div>
-      <div class="device">抓娃娃机</div>
-      <div class="device">智能货柜</div>
-      <div class="device">现炸薯条机</div>
-      <div class="device">现制冰淇淋机</div>
-      <div class="device">更多设备敬请期待...</div>
+    <div class="devices-wrapper">
+      <div class="devices-container cell-primary cell-primary-column center-items">
+        <div class="bottom-margin"><span class="devices-title">现制鲜售</span></div>
+        <div class="devices-list cell-primary cell-primary-wrap center-justify">
+          <div class="device"><i class="device-icon"><img src="images/icons/1-coffee.png"></i> 咖啡</div>
+          <div class="device"><i class="device-icon"><img src="images/icons/2-oringe.png"></i> 橙汁</div>
+          <div class="device"><i class="device-icon"><img src="images/icons/3-pizza.png"></i> 披萨</div>
+          <div class="device"><i class="device-icon"><img src="images/icons/4-potato.png"></i> 薯条</div>
+          <div class="device"><i class="device-icon"><img src="images/icons/5-milktea.png"></i> 奶茶</div>
+          <div class="device"><i class="device-icon"><img src="images/icons/6-yeqing.png"></i> 椰青</div>
+          <div class="device"><i class="device-icon"><img src="images/icons/7-noodle.png"></i> 面条</div>
+          <div class="device"><i class="device-icon"><img src="images/icons/8-icecream.png"></i> 冰淇淋</div>
+          <div class="device"><i class="device-icon"><img src="images/icons/9-beer.png"></i> 啤酒</div>
+          <div class="device"><i class="device-icon"><img src="images/icons/10-drink.png"></i> 粗粮饮品</div>
+          <div class="device"><i class="device-icon"><img src="images/icons/11-boxlunch.png"></i> 盒饭</div>
+          <div class="device"><i class="device-icon"><img src="images/icons/12-chestnut.png"></i> 板栗</div>
+        </div>
+      </div>
+      <div class="devices-container cell-primary cell-primary-column center-items">
+        <div class="center-text bottom-margin"><span class="devices-title">智能售货机</span></div>
+        <div class="devices-list cell-primary cell-primary-column">
+          <div class="device"><i class="device-icon"><img src="images/icons/13-food.png"></i> 休闲零食</div>
+          <div class="device"><i class="device-icon"><img src="images/icons/14-battle.png"></i> 瓶装饮料</div>
+          <div class="device"><i class="device-icon"><img src="images/icons/15-IP.png"></i> IP衍生品</div>
+        </div>
+      </div>
+      <div class="devices-container cell-primary cell-primary-column center-items">
+        <div class="center-text bottom-margin"><span class="devices-title">娱乐体验</span></div>
+        <div class="devices-list cell-primary cell-primary-column">
+          <div class="device"><i class="device-icon"><img src="images/icons/16-wawa.png"></i> 抓娃娃</div>
+          <div class="device"><i class="device-icon"><img src="images/icons/17-KTV.png"></i> KTV</div>
+        </div>
+      </div>
+    </div>
+    <div class="activeColor center-text" style="padding: 40px 0;">
+      <p>更多品类无人售货机入住</p>
+      <p>邮箱联系：qinyanyan@bianlimall.com</p>
     </div>
 
-    <div class="content-wrapper pic-top">
+    <div class="content-wrapper pic-top hide">
       <h1>便丽猫1.0版</h1>
     </div>
 
-    <div class="contactus-wrapper cell-primary">
+    <div class="contactus-wrapper cell-primary hide">
       <div class="pic-container">
         <div style="position: absolute;bottom: 100%;overflow: hidden;width:100%;">
           <img src="images/icons/pic-top.png" style="display: block;width: 108%;margin-left: -3%;">
@@ -278,6 +374,41 @@
           </span>
         </div>
       </div>
+    </div>
+
+    <div class="title-block inverse">
+      <p class="title">渠道合作</p>
+      <div class="divider"></div>
+      <p>
+        Channel cooperation
+      </p>
+    </div>
+
+    <div class="cell-primary cell-primary-wrap center-justify content-wrapper scene-wrapper">
+      <div class="channel-wrapper">
+        <div class="channel-title">商业场景-室外</div>
+        <div class="channel-content" style="background-image: url('images/icons/scene-outdoor.jpg');">
+        </div>
+      </div>
+      <div class="channel-wrapper">
+        <div class="channel-title">商业场景-室内</div>
+        <div class="channel-content" style="background-image: url('images/icons/scene-indoor.jpg');">
+        </div>
+      </div>
+      <div class="channel-wrapper">
+        <div class="channel-title">枢纽场景</div>
+        <div class="channel-content" style="background-image: url('images/icons/scene-niu.jpg');">
+        </div>
+      </div>
+      <div class="channel-wrapper">
+        <div class="channel-title">社区场景-校园</div>
+        <div class="channel-content" style="background-image: url('images/icons/scene-sociat.jpg');">
+        </div>
+      </div>
+    </div>
+    <div class="content-wrapper center-text" style="padding: 40px 0;font-weight: bold">
+      <p>更多场景合作</p>
+      <p>邮箱联系：jianglei@bianlimall.com</p>
     </div>
 
     <div class="footer">

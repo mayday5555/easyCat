@@ -173,6 +173,14 @@
   margin-top: -23.3px;
 }
 
+.title-block.inverse {
+  color: #000;
+  background: #ffcd29;
+}
+.title-block.inverse .divider {
+  background: #000;
+}
+
 .paragraph {
   font-size: 18px;
   line-height: 1.6;

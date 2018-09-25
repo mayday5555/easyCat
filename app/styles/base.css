@@ -64,11 +64,14 @@ a {
 .tiny {
   font-size: 14px;
 }
+.hide{
+  display: none!important;
+}
 @media(max-width: 768px) {
   .huge {
-  font-size: 24px;
-}
-.large {
-  font-size: 20px;
-}
+    font-size: 24px;
+  }
+  .large {
+    font-size: 20px;
+  }
 }
